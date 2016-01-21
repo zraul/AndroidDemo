@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/id_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="Android"
+        android:textColor="#444"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/id_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_title"
+        android:layout_marginTop="10dp"
+        android:maxLines="2"
+        android:minLines="1"
+        android:text="万能ListView"
+        android:textColor="#898989"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/id_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_desc"
+        android:layout_marginTop="10dp"
+        android:text="2016-01-20"
+        android:textColor="#898989"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/id_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/id_desc"
+        android:layout_marginTop="10dp"
+        android:background="#2ED667"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:drawablePadding="5dp"
+        android:padding="3dp"
+        android:text="10086"
+        android:textColor="#fff"
+        android:textSize="12sp" />
+
+    <CheckBox
+        android:id="@+id/id_cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:checked="false" />
+
+</RelativeLayout>
